@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/community-front/community-front.iml" filepath="$PROJECT_DIR$/community-front/community-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/community-work/community-work.iml" filepath="$PROJECT_DIR$/community-work/community-work.iml" />
+    </modules>
+  </component>
+</project>

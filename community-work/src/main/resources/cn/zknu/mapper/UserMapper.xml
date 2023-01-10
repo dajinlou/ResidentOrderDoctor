@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.zknu.mapper.UserMapper">
+
+    <!--  数据库表的字段名称和实体类的属性名称  不一样  则不能自动封装数据   -->
+    <!--  <resultMap id="brandResultMap" type="brand">
+        <result column="brand_name" property="brandName"/>
+        <result column="company_name" property="companyName"/>
+    </resultMap>-->
+
+    <!--查询所有-->
+    <!--  <select id="selectAll" resultMap="brandResultMap">
+        select *
+        from tb_brand;
+    </select>-->
+
+
+    <insert id="addUser" useGeneratedKeys="true" keyProperty="id">
+        insert into tb_user
+        values (null, #{username}, #{name}, #{password});
+        insert into user_info(username, name)
+        values (#{username}, #{name});
+        insert into health_info(username, name)
+        values (#{username}, #{name});
+    </insert>
+    <update id="updateUser">
+        update tb_user
+        set username = #{username},
+            name     = #{name},
+            password = #{password}
+        where username = #{username};
+    </update>
+</mapper>

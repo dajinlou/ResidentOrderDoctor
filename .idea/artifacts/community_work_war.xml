@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="community-work:war">
+    <output-path>$PROJECT_DIR$/community-work/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>community-work</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="community-work-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="community-work:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+127.0.0.1 - - [08/May/2022:15:07:26 +0800] "POST /community-work/user/checkLogin HTTP/1.1" 200 - http-bio-8081-exec-6 8117
+127.0.0.1 - - [08/May/2022:15:09:50 +0800] "POST /community-work/user/checkLogin HTTP/1.1" 200 - http-bio-8081-exec-7 107
+127.0.0.1 - - [08/May/2022:15:10:01 +0800] "POST /community-work/user/checkLogin HTTP/1.1" 200 7 http-bio-8081-exec-9 6119
+127.0.0.1 - - [08/May/2022:15:10:04 +0800] "GET /community-work/upload/getImage?username=zhaofen&position=3 HTTP/1.1" 200 95 http-bio-8081-exec-10 1594
+127.0.0.1 - - [08/May/2022:15:10:05 +0800] "GET /community-work/upload/getImage?username=zhaofen&position=3 HTTP/1.1" 200 95 http-bio-8081-exec-2 174
+127.0.0.1 - - [08/May/2022:15:10:06 +0800] "GET /community-work/nav/selectAllOfUser HTTP/1.1" 200 616 http-bio-8081-exec-8 4348
+127.0.0.1 - - [08/May/2022:15:10:06 +0800] "POST /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-1 2740
+127.0.0.1 - - [08/May/2022:15:10:09 +0800] "GET /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-3 131
+127.0.0.1 - - [08/May/2022:15:10:48 +0800] "POST /community-work/upload/uploadImage HTTP/1.1" 200 42 http-bio-8081-exec-5 2274
+127.0.0.1 - - [08/May/2022:15:10:57 +0800] "POST /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-6 228
+127.0.0.1 - - [08/May/2022:15:10:57 +0800] "GET /community-work/upload/getImage?username=zhaofen&position=3 HTTP/1.1" 200 105 http-bio-8081-exec-4 443
+127.0.0.1 - - [08/May/2022:15:10:57 +0800] "GET /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-7 49
+127.0.0.1 - - [08/May/2022:15:11:25 +0800] "POST /community-work/upload/uploadImage HTTP/1.1" 200 32 http-bio-8081-exec-9 1425
+127.0.0.1 - - [08/May/2022:15:11:27 +0800] "POST /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-10 4
+127.0.0.1 - - [08/May/2022:15:11:27 +0800] "GET /community-work/upload/getImage?username=zhaofen&position=3 HTTP/1.1" 200 95 http-bio-8081-exec-2 4
+127.0.0.1 - - [08/May/2022:15:11:28 +0800] "GET /community-work/userInfo/selectByUsername?username=zhaofen HTTP/1.1" 200 155 http-bio-8081-exec-8 65
